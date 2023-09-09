@@ -7,5 +7,10 @@ def volume(x,j)
   return v
 end
 
+print "Введіть значення x: "
+x = gets.chomp.to_f
 
-puts volume(1,1)
+print "Введіть значення j: "
+j = gets.chomp.to_f
+result = volume(x,j)
+puts "Результат обчислення: #{result}"
