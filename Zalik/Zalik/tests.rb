@@ -38,7 +38,7 @@ RSpec.describe Mailbox do
     end
   end
 
-  # Add more test cases for other methods...
+ 
 
 end
 
